@@ -8,6 +8,12 @@ According to UNICEF approximately 617 million children around the world are unab
 
 There is a huge gap in quality of education in Urban and Rural schools. Students in Urban areas have access to better schools, private tuition and libraries. Quality educations is also difficult for students with disability. Learn@Home aims to bridge this gap in education. Students who don't have access to quality education can learn various topica on our website at the comfort of their homes. All they need is an internet connection and willingness to learn. With internet reaching in even remote places of the world, online education becomes a major player in educating today's youth. Students can study various topics from our catalog and test their knowledge with our topic wise quiz.
 
+### Features
+
+- Choose different subjects from catalog.
+- Study different topics available.
+- Test your knowledge by taking topic wise quiz.
+
 ### Technology Used
 
 - Programming Language: Python
