@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learn@Home</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Krona+One&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='learn.css')}}">
+</head>
+<body>
+<header>
+    <div class="wrapper">
+        <div class="logo">
+            <a href="home">Learn@Home</a>
+        </div>
+        <nav>
+            <a href="home#about">About</a>
+            <a href="learn">Learn</a>
+            <a href="home#learn">Quiz</a>
+            <a href="home#learn">Contact Us</a>
+        </nav>
+    </div>
+</header>
+<div class="banner-area">
+    <h2>Study Concepts With Learn@Home</h2>
+</div>
+<div class="content-area">
+    <div class="wrapper">
+        <h3>Click on the cards below to study the concepts in detail.</h3>
+        <div class="container">
+            <div class="card">
+                <img src="https://openclipart.org/image/400px/211418" class="card__image">
+                <p class="card__name">Computer Science</p>
+
+                <a href="csLearn">
+                    <button class="btn draw-border">View</button>
+                </a>
+
+            </div>
+            <div class="card">
+                <img src="https://openclipart.org/image/400px/26277" class="card__image">
+                <p class="card__name">Mathematics</p>
+
+                <a href="learn">
+                    <button class="btn draw-border">View</button>
+                </a>
+
+            </div>
+            <div class="card">
+                <img src="https://openclipart.org/image/400px/266092" class="card__image">
+                <p class="card__name">Astronomy</p>
+
+                <a href="learn">
+                    <button class="btn draw-border">View</button>
+                </a>
+
+            </div>
+            <div class="card">
+                <img src="https://openclipart.org/image/400px/315323" class="card__image">
+                <p class="card__name">English</p>
+
+                <a href="learn">
+                    <button class="btn draw-border">View</button>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

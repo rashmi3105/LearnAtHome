@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learn@Home</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Krona+One&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='learn.css')}}">
+</head>
+<body>
+<header>
+    <div class="wrapper">
+        <div class="logo">
+            <a href="home">Learn@Home</a>
+        </div>
+        <nav>
+            <a href="home#about">About</a>
+            <a href="learn">Learn</a>
+            <a href="home#learn">Quiz</a>
+            <a href="home#learn">Contact Us</a>
+        </nav>
+    </div>
+</header>
+<div class="banner-area">
+    <h2>Computer Science</h2>
+</div>
+<div class="content-area">
+    <div class="wrapper">
+        <h3>Code never lies, comments sometimes do. <i> - Ron Jeffries</i></h3>
+        <div class="container">
+            <div class="card">
+                <img src="https://freepngimg.com/download/c++/7-2-c++-picture.png" class="card__image">
+                <p class="card__name">C++</p>
+
+                <a href="csLearn">
+                    <button class="btn draw-border">Start Quiz</button>
+                </a>
+
+            </div>
+            <div class="card">
+                <img src="https://openclipart.org/image/400px/252316" class="card__image">
+                <p class="card__name">DBMS</p>
+
+                <a href="csLearn">
+                    <button class="btn draw-border">Start Quiz</button>
+                </a>
+
+            </div>
+            <div class="card">
+                <img src="https://openclipart.org/image/400px/21837" class="card__image">
+                <p class="card__name">Computer Networks</p>
+
+                <a href="computer_network_quiz">
+                    <button class="btn draw-border">Start Quiz</button>
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

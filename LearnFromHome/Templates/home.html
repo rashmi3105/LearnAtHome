@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Krona+One&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css')}}">
+</head>
+<body>
+<div class="box-area">
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <a href="home">Learn@Home</a>
+            </div>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#learn">Learn</a>
+                <a href="#learn">Quiz</a>
+                <a href="#learn">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+    <div class="banner-area">
+        <h2>Welcome To Learn@Home</h2>
+        <a href="learn" class="button">Learn</a>
+        <a href="quiz" class="button">Quiz</a>
+    </div>
+    <div class="content-area">
+        <div class="wrapper">
+            <section id="about">
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>Why Learn@Home</h2>
+                <p><i>Every child has a right to learn.</i> Many government and non government organizations in the world recognize the importance of education. In India right to education is a Fundamental right. It means that every child between the ages of 6 and 14 has a right to free and compulsory education. Although a major challenge towards this is the lack of quality education in schools in rural areas. This is mainly due to the lack of trained teachers, lack of proper learning materials and poor infrastructure in schools.</p>
+                <p>According to UNICEF approximately 617 million children around the world are unable to reach minimum proficiency levels in reading and Mathematics. Out of these two thirds of them are in school.</p>
+                <p>There is a huge gap in quality of education in Urban and Rural schools. Students in Urban areas have access to better schools, private tuition and libraries. Quality educations is also difficult for students with disability. <b>Learn@Home</b> aims to bridge this gap in education. Students who don't have access to quality education can learn various topica on our website at the comfort of their homes. All they need is an internet connection and willingness to learn. With internet reaching in even remote places of the world, online education becomes a major player in educating today's youth. Students can study various topics from our catalog and test their knowledge with our topic wise quiz.</p>
+            </section>
+            <section id="learn">
+                <div class="container">
+                    <div class="card">
+                        <img src="https://openclipart.org/image/400px/192515" class="card__image">
+                        <p class="card__name">Study Concepts</p>
+
+                        <a href="learn"><button class="btn draw-border">Learn</button></a>
+
+                    </div>
+                    <div class="card">
+                        <img src="https://openclipart.org/image/400px/191766" class="card__image">
+                        <p class="card__name">Test Your Knowledge</p>
+                        <a href="quiz"><button class="btn draw-border">Quiz</button></a>
+                    </div>
+                    <div class="card">
+                        <img src="https://openclipart.org/image/400px/179457" class="card__image">
+                        <p class="card__name">Contact Us</p>
+
+                        <p>Email: abc@gmail.com</p>
+                        <p>Mobile No: +91xxxxxxx</p>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learn@Home | OSI Model Quiz</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Krona+One&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='quiz.css')}}">
+</head>
+<body>
+<header>
+    <div class="wrapper">
+        <div class="logo">
+            <a href="home">Learn@Home</a>
+        </div>
+        <nav>
+            <a href="home#about">About</a>
+            <a href="learn">Learn</a>
+            <a href="quiz">Quiz</a>
+            <a href="home#learn">Contact Us</a>
+        </nav>
+    </div>
+</header>
+<div class="banner-area">
+    <h2>OSI Model Quiz</h2>
+</div>
+<div class="content-area">
+    <div class="wrapper">
+        <form name="quiz" id="quiz">
+            <div>
+                <div class="quiz-box custom-box">
+                    <div class="ques-num"> Question 1:</div>
+                    <div class="ques-text">
+                        How many Layers are there in OSI Model?
+                    </div>
+                    <div class="option-container">
+                        <div class="option"><input type="radio" name="ques1" value="5"> 5</div>
+                        <div class="option"><input type="radio" name="ques1" value="7"> 7</div>
+                        <div class="option"><input type="radio" name="ques1" value="6"> 6</div>
+                        <div class="option"><input type="radio" name="ques1" value="9"> 9</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="quiz-box custom-box">
+                    <div class="ques-num"> Question 2:</div>
+                    <div class="ques-text">
+                       Routers operate at which layer of the OSI model?
+                    </div>
+                    <div class="option-container">
+                        <div class="option"><input type="radio" name="ques2" value="Physical"> Physical</div>
+                        <div class="option"><input type="radio" name="ques2" value="Transport"> Transport</div>
+                        <div class="option"><input type="radio" name="ques2" value="Network"> Network</div>
+                        <div class="option"><input type="radio" name="ques2" value="Data Link"> Data Link</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="quiz-box custom-box">
+                    <div class="ques-num"> Question 3:</div>
+                    <div class="ques-text">
+                        Bits are packaged into frames at which layer of the OSI model?
+                    </div>
+                    <div class="option-container">
+                        <div class="option"><input type="radio" name="ques3" value="Physical"> Physical</div>
+                        <div class="option"><input type="radio" name="ques3" value="Transport"> Transport</div>
+                        <div class="option"><input type="radio" name="ques3" value="Network"> Network</div>
+                        <div class="option"><input type="radio" name="ques3" value="Data Link"> Data Link</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="quiz-box custom-box">
+                    <div class="ques-num"> Question 4:</div>
+                    <div class="ques-text">
+                        Flow control takes place at which layer?
+                    </div>
+                    <div class="option-container">
+                        <div class="option"><input type="radio" name="ques4" value="Physical"> Physical</div>
+                        <div class="option"><input type="radio" name="ques4" value="Transport"> Transport</div>
+                        <div class="option"><input type="radio" name="ques4" value="Network"> Network</div>
+                        <div class="option"><input type="radio" name="ques4" value="Data Link"> Data Link</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="quiz-box custom-box">
+                    <div class="ques-num"> Question 5:</div>
+                    <div class="ques-text">
+                       Encryption takes place at which layer?
+                    </div>
+                    <div class="option-container">
+                        <div class="option"><input type="radio" name="ques5" value="Physical"> Physical</div>
+                        <div class="option"><input type="radio" name="ques5" value="Presentation"> Presentation</div>
+                        <div class="option"><input type="radio" name="ques5" value="Network"> Network</div>
+                        <div class="option"><input type="radio" name="ques5" value="Data Link"> Data Link</div>
+                    </div>
+                </div>
+            </div>
+            <div class="next-btn">
+                <input type="button" name="" value="submit" class="button" onclick="check()"></input>
+            </div>
+        </form>
+        <p id="result"></p>
+        <p id="percentage"></p>
+    </div>
+</div>
+        <script src="{{url_for('static', filename='application.js')}}"></script>
+</body>
+</html>
