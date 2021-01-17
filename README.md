@@ -12,11 +12,11 @@ There is a huge gap in quality of education in Urban and Rural schools. Students
 
 - Choose different subjects from catalog.
 - Study different topics available.
-- Test your knowledge by taking topic wise quiz.
+- Test your knowledge by taking topic-wise quiz.
 - See detailed quiz result.
 
 ### Technology Used
 
 - Programming Language: Python
-- Wed development: HTML, CSS, Bootstrap, JavaScript, Flask
+- Web development: HTML, CSS, Bootstrap, JavaScript, Flask
 - IDE Used for Development: PyCharm 
