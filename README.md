@@ -13,6 +13,7 @@ There is a huge gap in quality of education in Urban and Rural schools. Students
 - Choose different subjects from catalog.
 - Study different topics available.
 - Test your knowledge by taking topic wise quiz.
+- See detailed quiz result.
 
 ### Technology Used
 
