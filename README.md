@@ -10,6 +10,6 @@ There is a huge gap in quality of education in Urban and Rural schools. Students
 
 ### Technology Used
 
--> Programming Language: Python
--> Wed development: HTML, CSS, Bootstrap, JavaScript, Flask
--> IDE Used for Development: PyCharm 
+- Programming Language: Python
+- Wed development: HTML, CSS, Bootstrap, JavaScript, Flask
+- IDE Used for Development: PyCharm 
